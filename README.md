@@ -2,8 +2,11 @@
 This is a project for data science and applications subject in HCMUS
 Thùng chứa này chứa các file của đồ án môn "Khoa học dữ liệu ứng dụng" do nhóm 5 thực hiện.
 Thông tin của các thành viên trong nhóm:
+
 1712733 - Trần Phạm Khánh Sơn - khanhson261
+
 17124
+
 17127
 
 Trong đồ án này, nhóm tìm hiểu và cài đặt lại  một phương pháp giải quyết đã có (đứng thứ 5 trên private leaderboard) cho bài toán dự đoán doanh thu của nhà hàng trên kaggle, xem chi tiết tại: https://www.kaggle.com/c/restaurant-revenue-prediction
