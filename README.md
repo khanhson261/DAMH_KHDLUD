@@ -1,6 +1,8 @@
 # DAMH_KHDLUD
 This is a project for data science and applications subject in HCMUS
+
 Thùng chứa này chứa các file của đồ án môn "Khoa học dữ liệu ứng dụng" do nhóm 5 thực hiện.
+
 Thông tin của các thành viên trong nhóm:
 
 1712733 - Trần Phạm Khánh Sơn - khanhson261
