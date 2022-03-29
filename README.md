@@ -7,4 +7,7 @@ Thông tin của các thành viên trong nhóm:
 17127
 
 Trong đồ án này, nhóm tìm hiểu và cài đặt lại  một phương pháp giải quyết đã có (đứng thứ 5 trên private leaderboard) cho bài toán dự đoán doanh thu của nhà hàng trên kaggle, xem chi tiết tại: https://www.kaggle.com/c/restaurant-revenue-prediction
+
 Bạn đọc có thể mở file notebook ở thùng chứa của nhóm bằng Google Colab thông qua link này (file notebook sẽ được cập nhật trước mỗi buổi học mà nhóm phải trình bày).
+
+
