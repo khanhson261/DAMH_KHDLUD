@@ -5,7 +5,7 @@ Thùng chứa này chứa các file của đồ án môn "Khoa học dữ liệu
 
 Thông tin của các thành viên trong nhóm:
 
-1712733 - Trần Phạm Khánh Sơn - khanhson261
+1712733 - Trần Phạm Khánh Sơn - [github](https://github.com/khanhson261)
 
 1712495 - Nguyễn Quang Huy - [github](https://github.com/qhuy4119)
 
