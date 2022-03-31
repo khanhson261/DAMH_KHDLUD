@@ -7,7 +7,7 @@ Thông tin của các thành viên trong nhóm:
 
 1712733 - Trần Phạm Khánh Sơn - khanhson261
 
-1712495 - Nguyễn Quang Huy - qhuy4119
+1712495 - Nguyễn Quang Huy - [github](https://github.com/qhuy4119)
 
 17127
 
