@@ -9,7 +9,7 @@ Thông tin của các thành viên trong nhóm:
 
 1712495 - Nguyễn Quang Huy - [github](https://github.com/qhuy4119)
 
-17127
+17127   - Nguyễn Chí Thanh - [github](https://github.com/thanhchin)
 
 Trong đồ án này, nhóm tìm hiểu và cài đặt lại  một phương pháp giải quyết đã có (đứng thứ 5 trên private leaderboard) cho bài toán dự đoán doanh thu của nhà hàng trên kaggle, xem chi tiết tại: https://www.kaggle.com/c/restaurant-revenue-prediction
 
