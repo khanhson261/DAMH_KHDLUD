@@ -13,14 +13,21 @@ Thông tin của các thành viên trong nhóm:
 
 THÙNG CHỨA GITHUB:
 Link github: https://github.com/khanhson261/DAMH_KHDLUD
+
 KẾ HOẠCH THỰC HÀNH:
+
 Link google sheets: 
+
 LINK GOOGLE COLAB
+
 Link: 
+
 MÔ TẢ BÀI TOÁN
+
 Tên cuộc thi: Restaurant Revenue Prediction
 
 Mô tả bài toán:
+
 Giới thiệu sơ lược về TFI: 
 -	Với hơn 1.200 nhà hàng phục vụ nhanh trên toàn cầu, TFI là công ty lớn, chỉ đứng sau một số thương hiệu nổi tiếng nhất thế giới: Burger King, Sbarro, Popeyes, Usta Donerci và Arby’s. TFI đã tuyển dụng hơn 20.000 nhân viên ở cả Châu Âu lẫn Châu Á và hiện vẫn đang đầu tư đáng kể vào việc phát triển và mở thêm các nhà hàng mới tại nhiều địa điểm.
 Vấn đề gặp phải:
