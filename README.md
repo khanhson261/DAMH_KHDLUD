@@ -1,5 +1,4 @@
-<div style="text-align: justify"> 
-  # DAMH_KHDLUD
+ # DAMH_KHDLUD
 
   This is a project for data science and applications subject in HCMUS
 
@@ -82,4 +81,4 @@ Sau khi quan sát tập dữ liệu, nhóm rút ra được nhận xét như sau
 3.	Biến đổi dữ liệu (Ưu tiên sử dụng các phép biến đổi đơn giản như đã nói ở trên, chủ yếu là chuyển các cột dạng categorical về numeric)
 4.	Huấn luyện các mô hình tiềm năng trên tập train
 5.	Đánh giá và lựa chọn mô hình. Ở đây, mô hình được chọn là Ridge Regression vì mô hình này có khả năng thích ứng tốt với dữ liệu dễ bị overfitting và như đã nói ở trên, khi mà dữ liệu của tập train nhỏ thì đơn giản nhất thường sẽ là lựa chọn tốt nhất. Tác giả cũng đã có thử qua các mô hình khác như là SVR, Random Forest, K-nearest Neighbors, … nhưng Ridge Regression đã cho ra được kết quả tốt nhất.
- </div>
+
