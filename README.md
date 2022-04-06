@@ -1,6 +1,4 @@
- # DAMH_KHDLUD
-
-  This is a project for data science and applications subject in HCMUS
+ ## This is a project for data science and applications subject in HCMUS
 
 Thùng chứa này chứa các file của đồ án môn "Khoa học dữ liệu ứng dụng" do nhóm 5 thực hiện.
 
