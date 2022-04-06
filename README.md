@@ -1,4 +1,4 @@
- ## This is a project for data science and applications subject in HCMUS
+ ## A project for data science and applications in VNU-HCMUS
 
 Thùng chứa này chứa các file của đồ án môn "Khoa học dữ liệu ứng dụng" do nhóm 5 thực hiện.
 
