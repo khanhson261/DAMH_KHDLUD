@@ -43,8 +43,7 @@ Input: TFI đã cung cấp bộ dữ liệu với 137 nhà hàng trong tập tra
 Output: Doanh thu của các nhà hàng trong một năm nhất định.
 
 Lưu ý kèm theo:
--	Kaggle đã thêm khoảng 311,5 điểm dữ liệu "giả" vào bài kiểm tra cho mỗi điểm dữ liệu thực.
-	Chia cho số này sẽ cho số liệu chính xác hơn của dữ liệu "thực" trong tập thử nghiệm.
+-	Kaggle đã thêm khoảng 311,5 điểm dữ liệu "giả" vào bài kiểm tra cho mỗi điểm dữ liệu thực. Chia cho số này sẽ cho số liệu chính xác hơn của dữ liệu "thực" trong tập thử nghiệm.
 
 Prize: $ 30000.
 
@@ -55,8 +54,11 @@ Link Kaggle: https://www.kaggle.com/competitions/restaurant-revenue-prediction
 Solution:
 Trong đồ án thực hiện lần này, nhóm đã tìm hiểu và cài đặt lại phương pháp nằm trong top 10 Private Leaderboard.
 Xếp hạng solution: Top 5 Private Leaderboard với score = 1745878.25648
+
 Tác giả: Team FireFly, bài tham khảo là một phiên bản có sửa đổi rất ít của Ben Solecki and Lin Li.
+
 Thời gian: Tháng 5 năm 2015.
+
 Link Solution: https://github.com/bensolucky/TFI
 
 Phân tích sơ lược tập dữ liệu:
