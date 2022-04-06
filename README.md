@@ -1,4 +1,4 @@
-# DAMH_KHDLUD
+<div style="text-align: justify"> # DAMH_KHDLUD
 This is a project for data science and applications subject in HCMUS
 
 Thùng chứa này chứa các file của đồ án môn "Khoa học dữ liệu ứng dụng" do nhóm 5 thực hiện.
@@ -62,16 +62,16 @@ Như đã nêu ở trên, tập dữ liệu chúng ta sẽ bao gồm có 1 tập
 Sau khi quan sát tập dữ liệu, nhóm rút ra được nhận xét như sau: Tập huấn luyện được cung cấp có khá ít dòng (137 dòng). Mỗi dòng sẽ mô tả một nhà hàng ở Thổ Nhĩ Kỳ do TFI Foods điều hành. Hầu hết các thông tin mà TFI Foods cung cấp đều đã được ẩn danh và được gắn nhãn từ P1 đến P38. Các dữ liệu này có vẻ như có tính phân loại. Có một số cột được mô tả cụ thể hơn, chẳng hạn như ngày khai trương (open date), loại nhà hàng (type) và thành phố (city). Tập train bao gồm 100.000 dòng, nhưng trên thực tế, hầu hết các dòng này được tạo ra bởi Kaggle một cách tự động và có vẻ không thực sự mang ý nghĩa thực tiễn. Theo như tác giả cũng như một số nhóm tham gia khác trong cuộc thi, họ xác định rằng tập test trên thực tế chỉ có 321 hàng. Mục tiêu là dự đoán doanh thu của nhà hàng. Chỉ số cho điểm là RMSE (lỗi bình phương trung bình gốc), rất nhạy cảm với các giá trị ngoại lệ, đặc biệt là trên một tập hợp trainng nhỏ như đã cho trong đề. Vì vậy, chiến lược chung của thuật toán máy học mà tác giả xây dựng là chỉ sử dụng các kỹ thuật tiền xử lý và mô hình hóa đơn giản nhất và tốt nhất, đồng thời tìm cách tránh tối đa overfitting.
 Ý nghĩa của các cột dữ liệu trong tập train và test:
 -	```Id```: Id nhà hàng.
--	**Open Date**: ngày khai trương nhà hàng
--	**City**: Thành phố mà nhà hàng đang đặt. Lưu ý rằng có unicode trong tên.
--	**City Group**: Loại thành phố. Bao gồm loại thành phố lớn và loại Khác.
-- **Type**: Loại hình nhà hàng. Bao gồm:
-  * **FC**: Khu ăn uống.
-  * **IL**: Nội tuyến.
-  * **DT**: Drive Thru (tức là bán đồ ăn mang đi, người mua thường sẽ ngồi trên ô tô, đặt món và nhận đồ ăn qua cửa kính ô tô, sau đó sẽ lái xe đi mà không cần xuống xe).
-  * **MB**: Di động.
--	**P1, P2 đến P37**: Có ba loại dữ liệu xáo trộn trong các cột này. Dữ liệu nhân khẩu học được thu thập từ các nhà cung cấp bên thứ ba có hệ thống GIS. Các dữ liệu này bao gồm dân số ở bất kỳ khu vực nhất định nào, phân bố theo độ tuổi và giới tính, quy mô phát triển. Dữ liệu bất động sản chủ yếu liên quan đến diện tích (đơn vị m2) của vị trí, mặt tiền của vị trí, chỗ đậu xe ô tô. Dữ liệu thương mại chủ yếu bao gồm sự tồn tại của các điểm chiến lược xung quanh nơi đặt nhà hàng, bao gồm trường học, ngân hàng, các nhà khai thác QSR khác.
--	**Revenue**: Cột doanh thu cho biết doanh thu (đã chuyển đổi) của nhà hàng trong một năm nhất định và là mục tiêu của phân tích dự đoán. Cần lưu ý rằng các giá trị được chuyển đổi để chúng không có nghĩa là giá trị đô la thực.
+-	```Open Date```: ngày khai trương nhà hàng
+-	```City```: Thành phố mà nhà hàng đang đặt. Lưu ý rằng có unicode trong tên.
+-	```City Group```: Loại thành phố. Bao gồm loại thành phố lớn và loại Khác.
+- ```Type```: Loại hình nhà hàng. Bao gồm:
+  * ```FC```: Khu ăn uống.
+  * ```IL```: Nội tuyến.
+  * ```DT```: Drive Thru (tức là bán đồ ăn mang đi, người mua thường sẽ ngồi trên ô tô, đặt món và nhận đồ ăn qua cửa kính ô tô, sau đó sẽ lái xe đi mà không cần xuống xe).
+  * ```MB```: Di động.
+-	```P1, P2 đến P37```: Có ba loại dữ liệu xáo trộn trong các cột này. Dữ liệu nhân khẩu học được thu thập từ các nhà cung cấp bên thứ ba có hệ thống GIS. Các dữ liệu này bao gồm dân số ở bất kỳ khu vực nhất định nào, phân bố theo độ tuổi và giới tính, quy mô phát triển. Dữ liệu bất động sản chủ yếu liên quan đến diện tích (đơn vị m2) của vị trí, mặt tiền của vị trí, chỗ đậu xe ô tô. Dữ liệu thương mại chủ yếu bao gồm sự tồn tại của các điểm chiến lược xung quanh nơi đặt nhà hàng, bao gồm trường học, ngân hàng, các nhà khai thác QSR khác.
+-	```Revenue```: Cột doanh thu cho biết doanh thu (đã chuyển đổi) của nhà hàng trong một năm nhất định và là mục tiêu của phân tích dự đoán. Cần lưu ý rằng các giá trị được chuyển đổi để chúng không có nghĩa là giá trị đô la thực.
 
 ### Quá trình thực hiện giải cơ bản:
 1.	Khám phá dữ liệu
@@ -79,3 +79,4 @@ Sau khi quan sát tập dữ liệu, nhóm rút ra được nhận xét như sau
 3.	Biến đổi dữ liệu (Ưu tiên sử dụng các phép biến đổi đơn giản như đã nói ở trên, chủ yếu là chuyển các cột dạng categorical về numeric)
 4.	Huấn luyện các mô hình tiềm năng trên tập train
 5.	Đánh giá và lựa chọn mô hình. Ở đây, mô hình được chọn là Ridge Regression vì mô hình này có khả năng thích ứng tốt với dữ liệu dễ bị overfitting và như đã nói ở trên, khi mà dữ liệu của tập train nhỏ thì đơn giản nhất thường sẽ là lựa chọn tốt nhất. Tác giả cũng đã có thử qua các mô hình khác như là SVR, Random Forest, K-nearest Neighbors, … nhưng Ridge Regression đã cho ra được kết quả tốt nhất.
+ </div>
