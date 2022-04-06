@@ -73,4 +73,3 @@ Quá trình thực hiện giải cơ bản:
 -	Biến đổi dữ liệu (Ưu tiên sử dụng các phép biến đổi đơn giản như đã nói ở trên, chủ yếu là chuyển các cột dạng categorical về numeric)
 -	Fit các tập train và test
 -	Xây dựng mô hình (ở đây, mô hình được chọn là Ridge Regression vì mô hình này có khả năng thích ứng tốt với dữ liệu dễ bị overfitting và như đã nói ở trên, khi mà dữ liệu của tập train nhỏ thì đơn giản nhất thường sẽ là lựa chọn tốt nhất. Tác giả cũng đã có thử qua các mô hình khác như là SVR, Random Forest, K-nearest Neighbors, … nhưng Ridge Regression đã cho ra được kết quả tốt nhất).
-![image](https://user-images.githubusercontent.com/61035327/162009804-ee844bb2-d3ab-4cf8-a89d-1035d9b825d8.png)
