@@ -61,7 +61,7 @@ Link Solution: https://github.com/bensolucky/TFI
 Như đã nêu ở trên, tập dữ liệu chúng ta sẽ bao gồm có 1 tập train và 1 tập test. Ngoài ra, còn có 1 tập sampleSubmission.csv được bên điều hành cuộc thi thêm vào để cho người tham dự biết được cấu trúc nộp bài dự thi mà nhà điều hành mong muốn là như thế nào.
 Sau khi quan sát tập dữ liệu, nhóm rút ra được nhận xét như sau: Tập huấn luyện được cung cấp có khá ít dòng (137 dòng). Mỗi dòng sẽ mô tả một nhà hàng ở Thổ Nhĩ Kỳ do TFI Foods điều hành. Hầu hết các thông tin mà TFI Foods cung cấp đều đã được ẩn danh và được gắn nhãn từ P1 đến P38. Các dữ liệu này có vẻ như có tính phân loại. Có một số cột được mô tả cụ thể hơn, chẳng hạn như ngày khai trương (open date), loại nhà hàng (type) và thành phố (city). Tập train bao gồm 100.000 dòng, nhưng trên thực tế, hầu hết các dòng này được tạo ra bởi Kaggle một cách tự động và có vẻ không thực sự mang ý nghĩa thực tiễn. Theo như tác giả cũng như một số nhóm tham gia khác trong cuộc thi, họ xác định rằng tập test trên thực tế chỉ có 321 hàng. Mục tiêu là dự đoán doanh thu của nhà hàng. Chỉ số cho điểm là RMSE (lỗi bình phương trung bình gốc), rất nhạy cảm với các giá trị ngoại lệ, đặc biệt là trên một tập hợp trainng nhỏ như đã cho trong đề. Vì vậy, chiến lược chung của thuật toán máy học mà tác giả xây dựng là chỉ sử dụng các kỹ thuật tiền xử lý và mô hình hóa đơn giản nhất và tốt nhất, đồng thời tìm cách tránh tối đa overfitting.
 Ý nghĩa của các cột dữ liệu trong tập train và test:
--	**Id**: Id nhà hàng.
+-	```**Id**```: Id nhà hàng.
 -	**Open Date**: ngày khai trương nhà hàng
 -	**City**: Thành phố mà nhà hàng đang đặt. Lưu ý rằng có unicode trong tên.
 -	**City Group**: Loại thành phố. Bao gồm loại thành phố lớn và loại Khác.
