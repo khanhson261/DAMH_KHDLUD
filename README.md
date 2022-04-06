@@ -51,6 +51,7 @@ Lưu ý kèm theo: Kaggle đã thêm khoảng 311,5 điểm dữ liệu "giả" 
 
 ## Solution
 Trong đồ án thực hiện lần này, nhóm đã tìm hiểu và cài đặt lại phương pháp nằm trong top 10 Private Leaderboard.
+
 Xếp hạng solution: Top 5 Private Leaderboard với score = 1745878.25648
 
 Tác giả: Team FireFly, bài tham khảo là một phiên bản có sửa đổi rất ít của Ben Solecki and Lin Li.
