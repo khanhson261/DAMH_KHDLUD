@@ -8,7 +8,7 @@ Thông tin của các thành viên trong nhóm:
 
 1712495 - Nguyễn Quang Huy - [github](https://github.com/qhuy4119)
 
-17127   - Nguyễn Chí Thanh - [github](https://github.com/thanhchin)
+1712766 - Nguyễn Chí Thanh - [github](https://github.com/thanhchin)
 
 THÙNG CHỨA GITHUB:
   
