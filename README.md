@@ -16,11 +16,7 @@ Link github: https://github.com/khanhson261/DAMH_KHDLUD
 
 KẾ HOẠCH THỰC HÀNH:
 
-Link google sheets: 
-
-LINK GOOGLE COLAB
-
-Link: 
+LINK GOOGLE COLAB: https://colab.research.google.com/drive/1xPA4Pv_KavS2cBundJDYVVK_63ro7ZYR?usp=sharing
 
 # MÔ TẢ BÀI TOÁN
 ## Tổng quan
