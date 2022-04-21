@@ -14,7 +14,7 @@ THÙNG CHỨA GITHUB:
   
 Link github: https://github.com/khanhson261/DAMH_KHDLUD
 
-KẾ HOẠCH THỰC HÀNH:
+KẾ HOẠCH THỰC HÀNH: https://docs.google.com/spreadsheets/d/1BM-N_UEdI0BctyqZZeaa0Jip3ehevTyRdox7huHvLC4/edit?usp=sharing
 
 LINK GOOGLE COLAB: https://colab.research.google.com/drive/1xPA4Pv_KavS2cBundJDYVVK_63ro7ZYR?usp=sharing
 
